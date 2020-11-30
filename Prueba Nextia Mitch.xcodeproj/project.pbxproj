@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5250479425758F4300C8AAEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250479325758F4300C8AAEA /* AppDelegate.swift */; };
+		5250479625758F4300C8AAEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250479525758F4300C8AAEA /* SceneDelegate.swift */; };
+		5250479825758F4300C8AAEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250479725758F4300C8AAEA /* ViewController.swift */; };
+		5250479B25758F4300C8AAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5250479925758F4300C8AAEA /* Main.storyboard */; };
+		5250479E25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5250479C25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodeld */; };
+		525047A025758F4400C8AAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5250479F25758F4400C8AAEA /* Assets.xcassets */; };
+		525047A325758F4400C8AAEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525047A125758F4400C8AAEA /* LaunchScreen.storyboard */; };
+		525047AE25758F4400C8AAEA /* Prueba_Nextia_MitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047AD25758F4400C8AAEA /* Prueba_Nextia_MitchTests.swift */; };
+		525047B925758F4400C8AAEA /* Prueba_Nextia_MitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047B825758F4400C8AAEA /* Prueba_Nextia_MitchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525047AA25758F4400C8AAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5250478825758F4300C8AAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5250478F25758F4300C8AAEA;
+			remoteInfo = "Prueba Nextia Mitch";
+		};
+		525047B525758F4400C8AAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5250478825758F4300C8AAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5250478F25758F4300C8AAEA;
+			remoteInfo = "Prueba Nextia Mitch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5250479025758F4300C8AAEA /* Prueba Nextia Mitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prueba Nextia Mitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250479325758F4300C8AAEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5250479525758F4300C8AAEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5250479725758F4300C8AAEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5250479A25758F4300C8AAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5250479D25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prueba_Nextia_Mitch.xcdatamodel; sourceTree = "<group>"; };
+		5250479F25758F4400C8AAEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525047A225758F4400C8AAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525047A425758F4400C8AAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525047A925758F4400C8AAEA /* Prueba Nextia MitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba Nextia MitchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525047AD25758F4400C8AAEA /* Prueba_Nextia_MitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_Nextia_MitchTests.swift; sourceTree = "<group>"; };
+		525047AF25758F4400C8AAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525047B425758F4400C8AAEA /* Prueba Nextia MitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba Nextia MitchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525047B825758F4400C8AAEA /* Prueba_Nextia_MitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_Nextia_MitchUITests.swift; sourceTree = "<group>"; };
+		525047BA25758F4400C8AAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5250478D25758F4300C8AAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525047A625758F4400C8AAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525047B125758F4400C8AAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5250478725758F4300C8AAEA = {
+			isa = PBXGroup;
+			children = (
+				5250479225758F4300C8AAEA /* Prueba Nextia Mitch */,
+				525047AC25758F4400C8AAEA /* Prueba Nextia MitchTests */,
+				525047B725758F4400C8AAEA /* Prueba Nextia MitchUITests */,
+				5250479125758F4300C8AAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5250479125758F4300C8AAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5250479025758F4300C8AAEA /* Prueba Nextia Mitch.app */,
+				525047A925758F4400C8AAEA /* Prueba Nextia MitchTests.xctest */,
+				525047B425758F4400C8AAEA /* Prueba Nextia MitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5250479225758F4300C8AAEA /* Prueba Nextia Mitch */ = {
+			isa = PBXGroup;
+			children = (
+				5250479325758F4300C8AAEA /* AppDelegate.swift */,
+				5250479525758F4300C8AAEA /* SceneDelegate.swift */,
+				5250479725758F4300C8AAEA /* ViewController.swift */,
+				5250479925758F4300C8AAEA /* Main.storyboard */,
+				5250479F25758F4400C8AAEA /* Assets.xcassets */,
+				525047A125758F4400C8AAEA /* LaunchScreen.storyboard */,
+				525047A425758F4400C8AAEA /* Info.plist */,
+				5250479C25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodeld */,
+			);
+			path = "Prueba Nextia Mitch";
+			sourceTree = "<group>";
+		};
+		525047AC25758F4400C8AAEA /* Prueba Nextia MitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				525047AD25758F4400C8AAEA /* Prueba_Nextia_MitchTests.swift */,
+				525047AF25758F4400C8AAEA /* Info.plist */,
+			);
+			path = "Prueba Nextia MitchTests";
+			sourceTree = "<group>";
+		};
+		525047B725758F4400C8AAEA /* Prueba Nextia MitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				525047B825758F4400C8AAEA /* Prueba_Nextia_MitchUITests.swift */,
+				525047BA25758F4400C8AAEA /* Info.plist */,
+			);
+			path = "Prueba Nextia MitchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5250478F25758F4300C8AAEA /* Prueba Nextia Mitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525047BD25758F4400C8AAEA /* Build configuration list for PBXNativeTarget "Prueba Nextia Mitch" */;
+			buildPhases = (
+				5250478C25758F4300C8AAEA /* Sources */,
+				5250478D25758F4300C8AAEA /* Frameworks */,
+				5250478E25758F4300C8AAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prueba Nextia Mitch";
+			productName = "Prueba Nextia Mitch";
+			productReference = 5250479025758F4300C8AAEA /* Prueba Nextia Mitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525047A825758F4400C8AAEA /* Prueba Nextia MitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525047C025758F4400C8AAEA /* Build configuration list for PBXNativeTarget "Prueba Nextia MitchTests" */;
+			buildPhases = (
+				525047A525758F4400C8AAEA /* Sources */,
+				525047A625758F4400C8AAEA /* Frameworks */,
+				525047A725758F4400C8AAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525047AB25758F4400C8AAEA /* PBXTargetDependency */,
+			);
+			name = "Prueba Nextia MitchTests";
+			productName = "Prueba Nextia MitchTests";
+			productReference = 525047A925758F4400C8AAEA /* Prueba Nextia MitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525047B325758F4400C8AAEA /* Prueba Nextia MitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525047C325758F4400C8AAEA /* Build configuration list for PBXNativeTarget "Prueba Nextia MitchUITests" */;
+			buildPhases = (
+				525047B025758F4400C8AAEA /* Sources */,
+				525047B125758F4400C8AAEA /* Frameworks */,
+				525047B225758F4400C8AAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525047B625758F4400C8AAEA /* PBXTargetDependency */,
+			);
+			name = "Prueba Nextia MitchUITests";
+			productName = "Prueba Nextia MitchUITests";
+			productReference = 525047B425758F4400C8AAEA /* Prueba Nextia MitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5250478825758F4300C8AAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5250478F25758F4300C8AAEA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					525047A825758F4400C8AAEA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5250478F25758F4300C8AAEA;
+					};
+					525047B325758F4400C8AAEA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5250478F25758F4300C8AAEA;
+					};
+				};
+			};
+			buildConfigurationList = 5250478B25758F4300C8AAEA /* Build configuration list for PBXProject "Prueba Nextia Mitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5250478725758F4300C8AAEA;
+			productRefGroup = 5250479125758F4300C8AAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5250478F25758F4300C8AAEA /* Prueba Nextia Mitch */,
+				525047A825758F4400C8AAEA /* Prueba Nextia MitchTests */,
+				525047B325758F4400C8AAEA /* Prueba Nextia MitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5250478E25758F4300C8AAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525047A325758F4400C8AAEA /* LaunchScreen.storyboard in Resources */,
+				525047A025758F4400C8AAEA /* Assets.xcassets in Resources */,
+				5250479B25758F4300C8AAEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525047A725758F4400C8AAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525047B225758F4400C8AAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5250478C25758F4300C8AAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250479825758F4300C8AAEA /* ViewController.swift in Sources */,
+				5250479425758F4300C8AAEA /* AppDelegate.swift in Sources */,
+				5250479E25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodeld in Sources */,
+				5250479625758F4300C8AAEA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525047A525758F4400C8AAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525047AE25758F4400C8AAEA /* Prueba_Nextia_MitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525047B025758F4400C8AAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525047B925758F4400C8AAEA /* Prueba_Nextia_MitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525047AB25758F4400C8AAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5250478F25758F4300C8AAEA /* Prueba Nextia Mitch */;
+			targetProxy = 525047AA25758F4400C8AAEA /* PBXContainerItemProxy */;
+		};
+		525047B625758F4400C8AAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5250478F25758F4300C8AAEA /* Prueba Nextia Mitch */;
+			targetProxy = 525047B525758F4400C8AAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5250479925758F4300C8AAEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5250479A25758F4300C8AAEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525047A125758F4400C8AAEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525047A225758F4400C8AAEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525047BB25758F4400C8AAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525047BC25758F4400C8AAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525047BE25758F4400C8AAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S32C658C5;
+				INFOPLIST_FILE = "Prueba Nextia Mitch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elmitch.Prueba-Nextia-Mitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525047BF25758F4400C8AAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S32C658C5;
+				INFOPLIST_FILE = "Prueba Nextia Mitch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elmitch.Prueba-Nextia-Mitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		525047C125758F4400C8AAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S32C658C5;
+				INFOPLIST_FILE = "Prueba Nextia MitchTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elmitch.Prueba-Nextia-MitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prueba Nextia Mitch.app/Prueba Nextia Mitch";
+			};
+			name = Debug;
+		};
+		525047C225758F4400C8AAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S32C658C5;
+				INFOPLIST_FILE = "Prueba Nextia MitchTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elmitch.Prueba-Nextia-MitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prueba Nextia Mitch.app/Prueba Nextia Mitch";
+			};
+			name = Release;
+		};
+		525047C425758F4400C8AAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S32C658C5;
+				INFOPLIST_FILE = "Prueba Nextia MitchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elmitch.Prueba-Nextia-MitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prueba Nextia Mitch";
+			};
+			name = Debug;
+		};
+		525047C525758F4400C8AAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S32C658C5;
+				INFOPLIST_FILE = "Prueba Nextia MitchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elmitch.Prueba-Nextia-MitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prueba Nextia Mitch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5250478B25758F4300C8AAEA /* Build configuration list for PBXProject "Prueba Nextia Mitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525047BB25758F4400C8AAEA /* Debug */,
+				525047BC25758F4400C8AAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525047BD25758F4400C8AAEA /* Build configuration list for PBXNativeTarget "Prueba Nextia Mitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525047BE25758F4400C8AAEA /* Debug */,
+				525047BF25758F4400C8AAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525047C025758F4400C8AAEA /* Build configuration list for PBXNativeTarget "Prueba Nextia MitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525047C125758F4400C8AAEA /* Debug */,
+				525047C225758F4400C8AAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525047C325758F4400C8AAEA /* Build configuration list for PBXNativeTarget "Prueba Nextia MitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525047C425758F4400C8AAEA /* Debug */,
+				525047C525758F4400C8AAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5250479C25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5250479D25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodel */,
+			);
+			currentVersion = 5250479D25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodel */;
+			path = Prueba_Nextia_Mitch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5250478825758F4300C8AAEA /* Project object */;
+}
