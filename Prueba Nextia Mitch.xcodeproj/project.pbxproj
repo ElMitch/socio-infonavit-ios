@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D224129A508A573B6220466 /* Pods_Prueba_Nextia_Mitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65E191F1EFC361BEE10E717 /* Pods_Prueba_Nextia_Mitch.framework */; };
+		1B24A7C7E3BD60FB45C5264E /* Pods_Prueba_Nextia_MitchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA013C432A77CAB9BD1393 /* Pods_Prueba_Nextia_MitchTests.framework */; };
 		5250479425758F4300C8AAEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250479325758F4300C8AAEA /* AppDelegate.swift */; };
 		5250479625758F4300C8AAEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250479525758F4300C8AAEA /* SceneDelegate.swift */; };
 		5250479825758F4300C8AAEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250479725758F4300C8AAEA /* ViewController.swift */; };
@@ -16,6 +18,32 @@
 		525047A325758F4400C8AAEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525047A125758F4400C8AAEA /* LaunchScreen.storyboard */; };
 		525047AE25758F4400C8AAEA /* Prueba_Nextia_MitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047AD25758F4400C8AAEA /* Prueba_Nextia_MitchTests.swift */; };
 		525047B925758F4400C8AAEA /* Prueba_Nextia_MitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047B825758F4400C8AAEA /* Prueba_Nextia_MitchUITests.swift */; };
+		525047D3257591CF00C8AAEA /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047D2257591CF00C8AAEA /* LocalStorageManager.swift */; };
+		525047DC2575929F00C8AAEA /* BaseviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047DB2575929F00C8AAEA /* BaseviewController.swift */; };
+		525047E42575940600C8AAEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047E32575940600C8AAEA /* LoginViewController.swift */; };
+		525047E92575944A00C8AAEA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047E82575944A00C8AAEA /* API.swift */; };
+		525047EE2575949800C8AAEA /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525047ED2575949800C8AAEA /* LoginViewController.storyboard */; };
+		525047FA2575985000C8AAEA /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047F92575985000C8AAEA /* LoginPresenter.swift */; };
+		525047FF2575987300C8AAEA /* LoginPresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525047FE2575987300C8AAEA /* LoginPresenterDelegate.swift */; };
+		525048042575989800C8AAEA /* LoginViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525048032575989800C8AAEA /* LoginViewDelegate.swift */; };
+		52504809257598E600C8AAEA /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52504808257598E600C8AAEA /* Credentials.swift */; };
+		5250480E2575992000C8AAEA /* LoginSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250480D2575992000C8AAEA /* LoginSuccess.swift */; };
+		5250481E25759BEE00C8AAEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250481D25759BEE00C8AAEA /* HomeViewController.swift */; };
+		5250483025759E1F00C8AAEA /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5250482F25759E1F00C8AAEA /* HomeViewController.storyboard */; };
+		5250483825759F4000C8AAEA /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250483725759F4000C8AAEA /* Error.swift */; };
+		5250483D25759F5200C8AAEA /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250483C25759F5200C8AAEA /* Wallet.swift */; };
+		5250484225759F6400C8AAEA /* Benefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250484125759F6400C8AAEA /* Benefit.swift */; };
+		5250484725759F9200C8AAEA /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250484625759F9200C8AAEA /* ContainerViewController.swift */; };
+		5250484D25759FC000C8AAEA /* MenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250484C25759FC000C8AAEA /* MenuViewDelegate.swift */; };
+		5250485225759FD400C8AAEA /* HomeViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250485125759FD400C8AAEA /* HomeViewDelegate.swift */; };
+		5250485A2575A29B00C8AAEA /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525048592575A29B00C8AAEA /* HomePresenter.swift */; };
+		5250485F2575A2BC00C8AAEA /* HomePresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250485E2575A2BC00C8AAEA /* HomePresenterDelegate.swift */; };
+		525048642575A3A100C8AAEA /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525048632575A3A100C8AAEA /* MenuPresenter.swift */; };
+		525048692575A3B000C8AAEA /* MenuPresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525048682575A3B000C8AAEA /* MenuPresenterDelegate.swift */; };
+		5250486E2575A46E00C8AAEA /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250486D2575A46E00C8AAEA /* WalletTableViewCell.swift */; };
+		525048742575A5A600C8AAEA /* UnlockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525048722575A5A600C8AAEA /* UnlockCollectionViewCell.swift */; };
+		525048752575A5A600C8AAEA /* UnlockCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525048732575A5A600C8AAEA /* UnlockCollectionViewCell.xib */; };
+		7B5672C622AF061CA61B3E20 /* Pods_Prueba_Nextia_Mitch_Prueba_Nextia_MitchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6A4A54B5095F70AE4DEE91 /* Pods_Prueba_Nextia_Mitch_Prueba_Nextia_MitchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +64,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22FA013C432A77CAB9BD1393 /* Pods_Prueba_Nextia_MitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba_Nextia_MitchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AA4750E836F30DDAB34A76 /* Pods-Prueba Nextia Mitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Nextia Mitch.release.xcconfig"; path = "Target Support Files/Pods-Prueba Nextia Mitch/Pods-Prueba Nextia Mitch.release.xcconfig"; sourceTree = "<group>"; };
+		4E6821ACC8E314461A15DA57 /* Pods-Prueba Nextia MitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Nextia MitchTests.debug.xcconfig"; path = "Target Support Files/Pods-Prueba Nextia MitchTests/Pods-Prueba Nextia MitchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5250479025758F4300C8AAEA /* Prueba Nextia Mitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prueba Nextia Mitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5250479325758F4300C8AAEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5250479525758F4300C8AAEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +82,37 @@
 		525047B425758F4400C8AAEA /* Prueba Nextia MitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba Nextia MitchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525047B825758F4400C8AAEA /* Prueba_Nextia_MitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_Nextia_MitchUITests.swift; sourceTree = "<group>"; };
 		525047BA25758F4400C8AAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525047D2257591CF00C8AAEA /* LocalStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		525047DB2575929F00C8AAEA /* BaseviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseviewController.swift; sourceTree = "<group>"; };
+		525047E32575940600C8AAEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		525047E82575944A00C8AAEA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		525047ED2575949800C8AAEA /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		525047F92575985000C8AAEA /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		525047FE2575987300C8AAEA /* LoginPresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterDelegate.swift; sourceTree = "<group>"; };
+		525048032575989800C8AAEA /* LoginViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewDelegate.swift; sourceTree = "<group>"; };
+		52504808257598E600C8AAEA /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		5250480D2575992000C8AAEA /* LoginSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccess.swift; sourceTree = "<group>"; };
+		5250481D25759BEE00C8AAEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5250482F25759E1F00C8AAEA /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		5250483725759F4000C8AAEA /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		5250483C25759F5200C8AAEA /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		5250484125759F6400C8AAEA /* Benefit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benefit.swift; sourceTree = "<group>"; };
+		5250484625759F9200C8AAEA /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		5250484C25759FC000C8AAEA /* MenuViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewDelegate.swift; sourceTree = "<group>"; };
+		5250485125759FD400C8AAEA /* HomeViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewDelegate.swift; sourceTree = "<group>"; };
+		525048592575A29B00C8AAEA /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		5250485E2575A2BC00C8AAEA /* HomePresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterDelegate.swift; sourceTree = "<group>"; };
+		525048632575A3A100C8AAEA /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		525048682575A3B000C8AAEA /* MenuPresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenterDelegate.swift; sourceTree = "<group>"; };
+		5250486D2575A46E00C8AAEA /* WalletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
+		525048722575A5A600C8AAEA /* UnlockCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockCollectionViewCell.swift; sourceTree = "<group>"; };
+		525048732575A5A600C8AAEA /* UnlockCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnlockCollectionViewCell.xib; sourceTree = "<group>"; };
+		59EC21CCBC22E43190B6A6D9 /* Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.release.xcconfig"; path = "Target Support Files/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7848977C9D6AAAD5C8E02E70 /* Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.debug.xcconfig"; path = "Target Support Files/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A9B8B1F71BC583B4A1D6664 /* Pods-Prueba Nextia Mitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Nextia Mitch.debug.xcconfig"; path = "Target Support Files/Pods-Prueba Nextia Mitch/Pods-Prueba Nextia Mitch.debug.xcconfig"; sourceTree = "<group>"; };
+		EF6A4A54B5095F70AE4DEE91 /* Pods_Prueba_Nextia_Mitch_Prueba_Nextia_MitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba_Nextia_Mitch_Prueba_Nextia_MitchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65E191F1EFC361BEE10E717 /* Pods_Prueba_Nextia_Mitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba_Nextia_Mitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B6C274E48D7E9CB95C7573 /* Pods-Prueba Nextia MitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Nextia MitchTests.release.xcconfig"; path = "Target Support Files/Pods-Prueba Nextia MitchTests/Pods-Prueba Nextia MitchTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D224129A508A573B6220466 /* Pods_Prueba_Nextia_Mitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B24A7C7E3BD60FB45C5264E /* Pods_Prueba_Nextia_MitchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5672C622AF061CA61B3E20 /* Pods_Prueba_Nextia_Mitch_Prueba_Nextia_MitchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +150,8 @@
 				525047AC25758F4400C8AAEA /* Prueba Nextia MitchTests */,
 				525047B725758F4400C8AAEA /* Prueba Nextia MitchUITests */,
 				5250479125758F4300C8AAEA /* Products */,
+				98DCA004F7C927801CD98D87 /* Pods */,
+				D34704CDCEEE0BDBA5F3A93E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +168,10 @@
 		5250479225758F4300C8AAEA /* Prueba Nextia Mitch */ = {
 			isa = PBXGroup;
 			children = (
+				5250484B25759FAF00C8AAEA /* Menu */,
+				5250482E25759E1100C8AAEA /* Home */,
+				525047F2257596F500C8AAEA /* Login */,
+				525047D7257591E500C8AAEA /* util */,
 				5250479325758F4300C8AAEA /* AppDelegate.swift */,
 				5250479525758F4300C8AAEA /* SceneDelegate.swift */,
 				5250479725758F4300C8AAEA /* ViewController.swift */,
@@ -109,6 +180,7 @@
 				525047A125758F4400C8AAEA /* LaunchScreen.storyboard */,
 				525047A425758F4400C8AAEA /* Info.plist */,
 				5250479C25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodeld */,
+				525047DB2575929F00C8AAEA /* BaseviewController.swift */,
 			);
 			path = "Prueba Nextia Mitch";
 			sourceTree = "<group>";
@@ -131,6 +203,81 @@
 			path = "Prueba Nextia MitchUITests";
 			sourceTree = "<group>";
 		};
+		525047D7257591E500C8AAEA /* util */ = {
+			isa = PBXGroup;
+			children = (
+				525047D2257591CF00C8AAEA /* LocalStorageManager.swift */,
+				5250483725759F4000C8AAEA /* Error.swift */,
+				5250483C25759F5200C8AAEA /* Wallet.swift */,
+				5250484125759F6400C8AAEA /* Benefit.swift */,
+				5250480D2575992000C8AAEA /* LoginSuccess.swift */,
+				525047E82575944A00C8AAEA /* API.swift */,
+				52504808257598E600C8AAEA /* Credentials.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		525047F2257596F500C8AAEA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				525047E32575940600C8AAEA /* LoginViewController.swift */,
+				525048032575989800C8AAEA /* LoginViewDelegate.swift */,
+				525047F92575985000C8AAEA /* LoginPresenter.swift */,
+				525047FE2575987300C8AAEA /* LoginPresenterDelegate.swift */,
+				525047ED2575949800C8AAEA /* LoginViewController.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5250482E25759E1100C8AAEA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5250482F25759E1F00C8AAEA /* HomeViewController.storyboard */,
+				5250481D25759BEE00C8AAEA /* HomeViewController.swift */,
+				525048592575A29B00C8AAEA /* HomePresenter.swift */,
+				5250486D2575A46E00C8AAEA /* WalletTableViewCell.swift */,
+				5250485125759FD400C8AAEA /* HomeViewDelegate.swift */,
+				5250485E2575A2BC00C8AAEA /* HomePresenterDelegate.swift */,
+				525048722575A5A600C8AAEA /* UnlockCollectionViewCell.swift */,
+				525048732575A5A600C8AAEA /* UnlockCollectionViewCell.xib */,
+				5250484625759F9200C8AAEA /* ContainerViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5250484B25759FAF00C8AAEA /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5250484C25759FC000C8AAEA /* MenuViewDelegate.swift */,
+				525048632575A3A100C8AAEA /* MenuPresenter.swift */,
+				525048682575A3B000C8AAEA /* MenuPresenterDelegate.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		98DCA004F7C927801CD98D87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A9B8B1F71BC583B4A1D6664 /* Pods-Prueba Nextia Mitch.debug.xcconfig */,
+				29AA4750E836F30DDAB34A76 /* Pods-Prueba Nextia Mitch.release.xcconfig */,
+				7848977C9D6AAAD5C8E02E70 /* Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.debug.xcconfig */,
+				59EC21CCBC22E43190B6A6D9 /* Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.release.xcconfig */,
+				4E6821ACC8E314461A15DA57 /* Pods-Prueba Nextia MitchTests.debug.xcconfig */,
+				F9B6C274E48D7E9CB95C7573 /* Pods-Prueba Nextia MitchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D34704CDCEEE0BDBA5F3A93E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F65E191F1EFC361BEE10E717 /* Pods_Prueba_Nextia_Mitch.framework */,
+				EF6A4A54B5095F70AE4DEE91 /* Pods_Prueba_Nextia_Mitch_Prueba_Nextia_MitchUITests.framework */,
+				22FA013C432A77CAB9BD1393 /* Pods_Prueba_Nextia_MitchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 525047BD25758F4400C8AAEA /* Build configuration list for PBXNativeTarget "Prueba Nextia Mitch" */;
 			buildPhases = (
+				652FCF17C80C9A21B93C3C40 /* [CP] Check Pods Manifest.lock */,
 				5250478C25758F4300C8AAEA /* Sources */,
 				5250478D25758F4300C8AAEA /* Frameworks */,
 				5250478E25758F4300C8AAEA /* Resources */,
+				984204E424A8C9D91BA70554 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 525047C025758F4400C8AAEA /* Build configuration list for PBXNativeTarget "Prueba Nextia MitchTests" */;
 			buildPhases = (
+				18F650DBBC98C69AC41A9CB2 /* [CP] Check Pods Manifest.lock */,
 				525047A525758F4400C8AAEA /* Sources */,
 				525047A625758F4400C8AAEA /* Frameworks */,
 				525047A725758F4400C8AAEA /* Resources */,
@@ -173,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 525047C325758F4400C8AAEA /* Build configuration list for PBXNativeTarget "Prueba Nextia MitchUITests" */;
 			buildPhases = (
+				768FF40CC45C0DDC8A0DE506 /* [CP] Check Pods Manifest.lock */,
 				525047B025758F4400C8AAEA /* Sources */,
 				525047B125758F4400C8AAEA /* Frameworks */,
 				525047B225758F4400C8AAEA /* Resources */,
+				8853518ED3C4A423B2DBB6D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,8 +386,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5250483025759E1F00C8AAEA /* HomeViewController.storyboard in Resources */,
 				525047A325758F4400C8AAEA /* LaunchScreen.storyboard in Resources */,
+				525047EE2575949800C8AAEA /* LoginViewController.storyboard in Resources */,
 				525047A025758F4400C8AAEA /* Assets.xcassets in Resources */,
+				525048752575A5A600C8AAEA /* UnlockCollectionViewCell.xib in Resources */,
 				5250479B25758F4300C8AAEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,14 +411,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18F650DBBC98C69AC41A9CB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prueba Nextia MitchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		652FCF17C80C9A21B93C3C40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prueba Nextia Mitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		768FF40CC45C0DDC8A0DE506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8853518ED3C4A423B2DBB6D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests/Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984204E424A8C9D91BA70554 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba Nextia Mitch/Pods-Prueba Nextia Mitch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba Nextia Mitch/Pods-Prueba Nextia Mitch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prueba Nextia Mitch/Pods-Prueba Nextia Mitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5250478C25758F4300C8AAEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5250485A2575A29B00C8AAEA /* HomePresenter.swift in Sources */,
+				5250483825759F4000C8AAEA /* Error.swift in Sources */,
+				525047E42575940600C8AAEA /* LoginViewController.swift in Sources */,
+				525047FF2575987300C8AAEA /* LoginPresenterDelegate.swift in Sources */,
+				525048742575A5A600C8AAEA /* UnlockCollectionViewCell.swift in Sources */,
 				5250479825758F4300C8AAEA /* ViewController.swift in Sources */,
 				5250479425758F4300C8AAEA /* AppDelegate.swift in Sources */,
+				525047FA2575985000C8AAEA /* LoginPresenter.swift in Sources */,
+				5250481E25759BEE00C8AAEA /* HomeViewController.swift in Sources */,
+				525048642575A3A100C8AAEA /* MenuPresenter.swift in Sources */,
+				5250486E2575A46E00C8AAEA /* WalletTableViewCell.swift in Sources */,
+				525047D3257591CF00C8AAEA /* LocalStorageManager.swift in Sources */,
+				5250480E2575992000C8AAEA /* LoginSuccess.swift in Sources */,
+				5250485F2575A2BC00C8AAEA /* HomePresenterDelegate.swift in Sources */,
+				52504809257598E600C8AAEA /* Credentials.swift in Sources */,
+				525047DC2575929F00C8AAEA /* BaseviewController.swift in Sources */,
+				5250484225759F6400C8AAEA /* Benefit.swift in Sources */,
+				5250484D25759FC000C8AAEA /* MenuViewDelegate.swift in Sources */,
+				5250484725759F9200C8AAEA /* ContainerViewController.swift in Sources */,
+				5250485225759FD400C8AAEA /* HomeViewDelegate.swift in Sources */,
+				525048042575989800C8AAEA /* LoginViewDelegate.swift in Sources */,
 				5250479E25758F4300C8AAEA /* Prueba_Nextia_Mitch.xcdatamodeld in Sources */,
+				525047E92575944A00C8AAEA /* API.swift in Sources */,
+				5250483D25759F5200C8AAEA /* Wallet.swift in Sources */,
+				525048692575A3B000C8AAEA /* MenuPresenterDelegate.swift in Sources */,
 				5250479625758F4300C8AAEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +717,7 @@
 		};
 		525047BE25758F4400C8AAEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9B8B1F71BC583B4A1D6664 /* Pods-Prueba Nextia Mitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +737,7 @@
 		};
 		525047BF25758F4400C8AAEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AA4750E836F30DDAB34A76 /* Pods-Prueba Nextia Mitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +757,7 @@
 		};
 		525047C125758F4400C8AAEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6821ACC8E314461A15DA57 /* Pods-Prueba Nextia MitchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +780,7 @@
 		};
 		525047C225758F4400C8AAEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B6C274E48D7E9CB95C7573 /* Pods-Prueba Nextia MitchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +803,7 @@
 		};
 		525047C425758F4400C8AAEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7848977C9D6AAAD5C8E02E70 /* Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +824,7 @@
 		};
 		525047C525758F4400C8AAEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EC21CCBC22E43190B6A6D9 /* Pods-Prueba Nextia Mitch-Prueba Nextia MitchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

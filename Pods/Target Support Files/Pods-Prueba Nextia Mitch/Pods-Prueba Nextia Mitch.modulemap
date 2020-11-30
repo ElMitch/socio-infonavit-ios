@@ -1,0 +1,6 @@
+framework module Pods_Prueba_Nextia_Mitch {
+  umbrella header "Pods-Prueba Nextia Mitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

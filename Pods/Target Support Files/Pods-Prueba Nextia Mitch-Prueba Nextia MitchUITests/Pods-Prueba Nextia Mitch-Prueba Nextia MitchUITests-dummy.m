@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Prueba_Nextia_Mitch_Prueba_Nextia_MitchUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Prueba_Nextia_Mitch_Prueba_Nextia_MitchUITests
+@end
