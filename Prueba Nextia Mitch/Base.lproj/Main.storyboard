@@ -15,18 +15,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="DeL-bP-mhg">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="DeL-bP-mhg">
                                 <rect key="frame" x="189" y="443" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="t9X-rc-bk6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="t9X-rc-bk6">
                                 <rect key="frame" x="82" y="393" width="251" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.92549019610000005" green="0.31372549020000001" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="DeL-bP-mhg" firstAttribute="top" secondItem="t9X-rc-bk6" secondAttribute="bottom" constant="8" symbolic="YES" id="5lv-WP-ptS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DeL-bP-mhg" secondAttribute="trailing" constant="188" id="68Z-m7-neo"/>
+                            <constraint firstItem="t9X-rc-bk6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="349" id="BaX-iL-s7J"/>
+                            <constraint firstItem="DeL-bP-mhg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="189" id="ck4-3n-J19"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t9X-rc-bk6" secondAttribute="trailing" constant="81" id="fiZ-KA-MoO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DeL-bP-mhg" secondAttribute="bottom" constant="382" id="k3P-BQ-BlE"/>
+                            <constraint firstItem="t9X-rc-bk6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="miP-oP-CQl"/>
+                            <constraint firstItem="DeL-bP-mhg" firstAttribute="top" secondItem="t9X-rc-bk6" secondAttribute="bottom" constant="8" symbolic="YES" id="smk-Nf-KDd"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="logo" destination="t9X-rc-bk6" id="4gG-eF-L1p"/>
